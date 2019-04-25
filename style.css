@@ -1,0 +1,66 @@
+@keyframes spin {
+    0% { transform: rotate(0deg);
+
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.earth {
+    animation-name: spin;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 600px 500px;
+}
+
+.merc {
+    animation: spin 6s infinite linear;
+    transform-origin: 600px 500px;
+}
+
+.venus {
+    animation: spin 8.4s infinite linear;
+    transform-origin: 600px 500px;
+}
+
+.mars {
+    animation: spin 11s infinite linear;
+    transform-origin: 600px 500px;
+}
+
+.ast {
+    animation: spin 23s infinite linear;
+    transform-origin: 600px 500px;
+}
+
+.jup {
+    animation: spin 32s infinite linear;
+    transform-origin: 600px 500px;
+}
+
+.sat {
+    animation: spin 45s infinite linear;
+    transform-origin: 600px 500px;
+}
+
+.nep {
+    animation: spin 55s infinite linear;
+    transform-origin: 600px 500px;
+}
+
+.ur {
+    animation: spin 67s infinite linear;
+    transform-origin: 600px 500px;
+}
+
+.ds {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    animation: spin 67s infinite linear;
+    transform-origin: 200px 500px;
+}
